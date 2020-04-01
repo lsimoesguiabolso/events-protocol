@@ -10,5 +10,4 @@ interface EventHandler {
     val eventVersion: Int
 
     fun handle(event: RequestEvent): ResponseEvent
-
 }

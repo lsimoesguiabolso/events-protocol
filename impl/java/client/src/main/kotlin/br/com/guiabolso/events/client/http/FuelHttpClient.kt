@@ -44,5 +44,4 @@ class FuelHttpClient : HttpClientAdapter {
             }
         }
     }
-
 }

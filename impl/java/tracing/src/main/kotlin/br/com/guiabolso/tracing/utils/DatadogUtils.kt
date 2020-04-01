@@ -61,5 +61,4 @@ object DatadogUtils {
         span.setTag(ERROR_MSG, message)
         params.forEach { entry -> span.setTag(entry.key, entry.value) }
     }
-
 }

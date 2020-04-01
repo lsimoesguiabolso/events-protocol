@@ -8,5 +8,4 @@ interface EventHandlerRegistry : EventHandlerDiscovery {
     fun add(handler: EventHandler)
 
     fun add(eventName: String, eventVersion: Int, handler: (RequestEvent) -> ResponseEvent)
-
 }

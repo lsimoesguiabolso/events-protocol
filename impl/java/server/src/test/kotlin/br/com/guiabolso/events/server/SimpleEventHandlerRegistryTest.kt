@@ -22,7 +22,6 @@ class SimpleEventHandlerRegistryTest {
         assertEquals(EventBuilderForTest.buildResponseEvent(), responseEvent)
     }
 
-
     @Test
     fun testReturnsNullWhenEventNotFound() {
         val eventHandlerDiscovery = SimpleEventHandlerRegistry()
@@ -32,4 +31,3 @@ class SimpleEventHandlerRegistryTest {
         assertNull(handler)
     }
 }
-

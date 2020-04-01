@@ -22,5 +22,4 @@ class SimpleEventHandlerRegistry : EventHandlerRegistry {
     }
 
     override fun eventHandlerFor(eventName: String, eventVersion: Int) = handlers[eventName to eventVersion]
-
 }
